@@ -1,3 +1,5 @@
+Analysis of Project No 1.Bike Sales Data......
+
 In 2023, bike sales varied each month. May had the highest sales with 53 bikes sold. February, April, August, September, October, and November had the lowest sales, each with 39 bikes sold.
 
 Our customers were almost equally divided between men (250) and women (249). Most of our customers were married (427), while only 62 were unmarried. This shows that married people are more likely to buy bikes.
