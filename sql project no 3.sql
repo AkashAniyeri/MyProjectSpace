@@ -28,3 +28,27 @@ insert into Persons values(08,'Muhammed','Moideen','166,303,498',08,08,'Benglade
 insert into Persons values(09,'Julia','Theresa','145,912,025',09,09,'Russia');
 insert into Persons values(10,'Clara','Trisa','126,014,024',10,10,'Mexico');
 
+use entri_classes;
+select left(Country_Name , 3) as query_no_1 from Country;
+
+select concat(F_Name,'_',L_Name) as Query_no_2 from Persons;
+
+select count(distinct Country_Name ) as Query_no_3 from Persons;
+
+select max(Population) as Query_no_4 from Country;
+
+select min(population) as Query_no_5 from Persons;
+
+insert into Persons values(11,'Govind',null,'1,393,409,038',02,02,'India'),
+(12,'Tom',null,'331,893,745',03,03,'USA');
+select* from Persons;
+select count(L_Name) as Query_no_6 from Persons; 
+
+select count(*) as Query_no_7 from Persons;
+
+select now() as Query_no_8;
+
+select Population from Country limit 3;
+
+select * from Country order by rand() limit 3;
+
